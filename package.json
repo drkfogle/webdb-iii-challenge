@@ -1,0 +1,27 @@
+{
+  "name": "webdb-iii-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": "https://github.com/drkfogle/webdb-iii-challenge.git",
+  "author": "drkfogle <rodriguez.kevin.094@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express",
+    "blog",
+    "api"
+  ],
+  "dependencies": {
+    "express": "^4.16.4",
+    "knex": "^0.16.5",
+    "server": "^1.0.18",
+    "sqlite3": "^4.0.8"
+  },
+  "devDependencies": {
+    "knex-cleaner": "^1.1.4",
+    "nodemon": "^1.19.0"
+  }
+}
